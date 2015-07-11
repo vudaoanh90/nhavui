@@ -1,0 +1,125 @@
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mod_caroufredsel {
+  overflow: hidden;
+  position: relative;
+}
+.caroufredsel_wrapper {
+  cursor: auto !important;
+}
+.list_carousel {
+  padding: 0;
+  width: auto;
+  position: relative;
+  margin: 0 0 0 -20px;
+}
+.list_carousel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list_carousel ul li {
+  display: block;
+  float: left;
+}
+.list_carousel ul li .item_content {
+  padding: 0 0 0 20px;
+  margin: 0;
+  text-align: center;
+}
+.list_carousel ul li .item_content .item_img {
+  margin-bottom: 0;
+}
+.list_carousel ul li .item_content h5 {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  margin-bottom: 0;
+}
+.list_carousel ul li .item_content .content_inner {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  /*.buttonBackgroundAlt(@greenDark, @btnColor);
+          .buttonBackgroundAlt(@white, @textColor);*/
+  background: #ffffff;
+  color: #c7c7c7;
+  padding: 24px 20px 28px;
+  font-size: 12px;
+}
+.list_carousel ul li .item_content:hover .content_inner {
+  background: #58c59a;
+  color: #ffeed2;
+}
+.list_carousel ul li .item_content:hover .content_inner .price {
+  color: #ffeed2;
+}
+.list_carousel ul li .item_content:hover .content_inner a {
+  color: #ffeed2;
+}
+.list_carousel ul li .item_content:hover .content_inner a:hover {
+  text-decoration: underline;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+/*Navigation*/
+.caroufredsel_prev,
+.caroufredsel_next {
+  position: absolute;
+  top: 0%;
+  display: block;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #4e515d;
+  cursor: pointer;
+  z-index: 999;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.caroufredsel_prev:hover,
+.caroufredsel_next:hover {
+  color: #58c59a;
+}
+.caroufredsel_prev {
+  right: 30px;
+}
+.caroufredsel_next {
+  right: 0px;
+}
+/*Pagination*/
+.caroufredsel_pagination {
+  text-align: center;
+}
+.caroufredsel_pagination a {
+  display: inline-block;
+  padding: 0 0.5em;
+}
